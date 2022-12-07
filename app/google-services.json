@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729344943412",
+    "project_id": "chatuth-56a6c",
+    "storage_bucket": "chatuth-56a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729344943412:android:6d54c70862a656cb71b161",
+        "android_client_info": {
+          "package_name": "com.example.chat_uth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729344943412-d150gpbb3hlmtkc1l0m0fpav94hsogma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwUdr62bhzY5hv12xcUNB1NPoc0KVIc5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729344943412-d150gpbb3hlmtkc1l0m0fpav94hsogma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
