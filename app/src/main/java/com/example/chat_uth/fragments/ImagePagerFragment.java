@@ -17,10 +17,10 @@ import android.widget.VideoView;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
-import com.proyecto.droidnotes.R;
-import com.proyecto.droidnotes.activities.ConfirmImageSendActivity;
-import com.proyecto.droidnotes.adapters.CardAdapter;
-import com.proyecto.droidnotes.utils.ExtensionFile;
+import com.example.chat_uth.R;
+import com.example.chat_uth.activities.ConfirmImageSendActivity;
+import com.example.chat_uth.adapters.CardAdapter;
+import com.example.chat_uth.utils.ExtensionFile;
 
 import java.io.File;
 

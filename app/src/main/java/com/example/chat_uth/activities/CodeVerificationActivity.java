@@ -22,10 +22,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.firestore.DocumentSnapshot;
-import com.proyecto.droidnotes.R;
-import com.proyecto.droidnotes.models.User;
-import com.proyecto.droidnotes.providers.AuthProvider;
-import com.proyecto.droidnotes.providers.UsersProvider;
+import com.example.chat_uth.R;
+import com.example.chat_uth.models.User;
+import com.example.chat_uth.providers.AuthProvider;
+import com.example.chat_uth.providers.UsersProvider;
 
 public class CodeVerificationActivity extends AppCompatActivity {
 
@@ -61,7 +61,7 @@ public class CodeVerificationActivity extends AppCompatActivity {
         mExtraPhone = getIntent().getStringExtra("phone");
 
         // Peticion para que se envie un SMS con sodigo de verificacion
-        mAuthProvider.sendCodeVerification(mExtraPhone, mCallBacks);
+        //mAuthProvider.sendCodeVerification(mExtraPhone, mCallBacks);
 
 
         // Evento setOnclick

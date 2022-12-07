@@ -24,7 +24,7 @@ public class AuthProvider {
     }
 
     // Validacion de autenticacion
-    public void sendCodeVerification(String phone, PhoneAuthProvider.OnVerificationStateChangedCallbacks callback)
+    /*public void sendCodeVerification(String phone, PhoneAuthProvider.OnVerificationStateChangedCallbacks callback)
     {
         PhoneAuthProvider.getInstance().verifyPhoneNumber (
                 phone,
@@ -33,7 +33,7 @@ public class AuthProvider {
                 TaskExecutors.MAIN_THREAD,
                 callback
         );
-    }
+    }*/
 
 
     public Task<AuthResult> signInPhone(String verificacationId, String code)

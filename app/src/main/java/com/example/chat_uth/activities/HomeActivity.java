@@ -12,14 +12,14 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 import com.mancj.materialsearchbar.MaterialSearchBar;
-import com.proyecto.droidnotes.R;
-import com.proyecto.droidnotes.adapters.ViewPagerAdapter;
-import com.proyecto.droidnotes.fragments.ChatsFragments;
-import com.proyecto.droidnotes.fragments.ContactsFragment;
-import com.proyecto.droidnotes.fragments.PhotoFragment;
-import com.proyecto.droidnotes.fragments.StatusFragment;
-import com.proyecto.droidnotes.providers.AuthProvider;
-import com.proyecto.droidnotes.providers.UsersProvider;
+import com.example.chat_uth.R;
+import com.example.chat_uth.adapters.ViewPagerAdapter;
+import com.example.chat_uth.fragments.ChatsFragments;
+import com.example.chat_uth.fragments.ContactsFragment;
+import com.example.chat_uth.fragments.PhotoFragment;
+import com.example.chat_uth.fragments.StatusFragment;
+import com.example.chat_uth.providers.AuthProvider;
+import com.example.chat_uth.providers.UsersProvider;
 
 // IMPLEMENTAMOS UNA INTERFACE PARA TRABAJAR CON EL SEARCHBAR
 // - IMPLEMENTAMOS LOS 3 METODOS QUE REQUIERE

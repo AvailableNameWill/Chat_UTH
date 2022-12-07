@@ -19,11 +19,11 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentSnapshot;
-import com.proyecto.droidnotes.R;
-import com.proyecto.droidnotes.models.User;
-import com.proyecto.droidnotes.providers.AuthProvider;
-import com.proyecto.droidnotes.providers.ImageProvider;
-import com.proyecto.droidnotes.providers.UsersProvider;
+import com.example.chat_uth.R;
+import com.example.chat_uth.models.User;
+import com.example.chat_uth.providers.AuthProvider;
+import com.example.chat_uth.providers.ImageProvider;
+import com.example.chat_uth.providers.UsersProvider;
 
 public class RegisterActivity extends AppCompatActivity {
 

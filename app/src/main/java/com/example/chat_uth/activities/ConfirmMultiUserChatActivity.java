@@ -23,12 +23,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.storage.UploadTask;
 import com.google.gson.Gson;
-import com.proyecto.droidnotes.R;
-import com.proyecto.droidnotes.models.Chat;
-import com.proyecto.droidnotes.providers.AuthProvider;
-import com.proyecto.droidnotes.providers.ChatsProvider;
-import com.proyecto.droidnotes.providers.ImageProvider;
-import com.proyecto.droidnotes.providers.UsersProvider;
+import com.example.chat_uth.R;
+import com.example.chat_uth.models.Chat;
+import com.example.chat_uth.providers.AuthProvider;
+import com.example.chat_uth.providers.ChatsProvider;
+import com.example.chat_uth.providers.ImageProvider;
+import com.example.chat_uth.providers.UsersProvider;
 
 import java.io.File;
 import java.util.ArrayList;
