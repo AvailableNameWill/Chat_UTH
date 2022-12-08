@@ -11,7 +11,7 @@ import retrofit2.http.POST;
 public interface IFCMApi {
     @Headers({
             "Content-Type:application/json",
-            "Authorization:key=AAAAw1qIvMw:APA91bFZ-O2-cm4eo5eZPbv277xyRgq75BfyzwakexpBUlq3eiLpgOeGudpl5BQZM4-Gwsi6k8k1ak7nPYyvPdlesXUw9Oz8_OMT_xBhlUObev4H-7Rii4HWFBPpuYOvgs8NtdHtCitG"
+            "Authorization:key=AAAAqdBYpTQ:APA91bGcPkoNnAlc9CQv9UOA8SdkPhIEj07HWV0whJX0t4Ch1lYa615ZZnhL-E3uSDcmBTlAvl5MnspckGzxP16g96gGhjklPXTtz27m1T7T1Kqyp719NDvwTiIiogQUV4-SkjrsdkZQ"
     })
     @POST("fcm/send")
 
